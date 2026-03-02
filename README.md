@@ -1,198 +1,82 @@
-# 📊 AltiQ Hardware – End-to-End Business Intelligence Solution
-
-## 📌 Executive Dashboard Snapshot
-![Executive Dashboard](images/executive_view.png)
+# 📊 AltiQ Hardware – End-to-End Business Intelligence Solution  
 
 ---
 
-# 🏢 Business Problem
+## 🏢 Business Context  
+AltiQ Hardware expanded into the U.S. market but began facing unexpected losses due to intuition-driven decisions and manual Excel-based reporting.  
 
-AltiQ Hardware, a global seller of computers and accessories operating through **Retailers, Direct, and Distributors**, experienced unexpected losses after expanding into the U.S. market.
-
-Decisions were primarily based on intuition, surveys, and manual Excel analysis, while competitors leveraged dedicated analytics teams for data-driven strategies.
-
-To remain competitive, AltiQ initiated a complete Business Intelligence transformation to enable data-driven decision-making across Finance, Sales, Marketing, Supply Chain, and Executive leadership.
+This project delivers a centralized Business Intelligence solution enabling data-driven decision-making across Finance, Sales, Marketing, Supply Chain, and Executive leadership.
 
 ---
 
-# 🎯 Project Objective
-
-- Establish a **single source of truth**
-- Track profitability and cost drivers
-- Improve forecast accuracy
-- Monitor channel & market performance
-- Support strategic decision-making
+## 🎯 Objectives  
+- Establish a single source of truth  
+- Identify key profitability drivers  
+- Improve forecast accuracy and demand planning  
+- Monitor market and channel performance  
 
 ---
 
-# 🗂️ Data Sources
-
-## 🔹 SQL Databases
-
-### GDB041
-- Dim_Customer  
-- Dim_Product  
-- Dim_Market  
-- Fact_Sales_Monthly  
-- Fact_Forecast_Monthly  
-
-### GDB056
-- Manufacturing_Cost  
-- Pre_Invoice_Deductions  
-- Post_Invoice_Deductions  
-- Freight_Cost  
-- Gross_Price  
-
-## 🔹 Excel Files
-- Market Share  
-- Operational Expenses  
-- Target 2020  
+## 🛠️ Tech Stack  
+**SQL | Power BI | Power Query | DAX | DAX Studio | Excel**
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🧱 Data Model  
+Designed a scalable **Snowflake Schema** integrating:  
+- Sales & Forecast data  
+- Manufacturing & Freight costs  
+- Pre & Post invoice deductions  
+- Market share & target data  
 
-- SQL  
-- Power BI  
-- Power Query  
-- DAX  
-- DAX Studio  
-- Excel  
-
----
-
-# 🧱 Data Modeling
-
-A scalable **Star Schema** data model was implemented:
-
-
+The model ensures optimized performance, clean relationships, and accurate KPI calculations.
 
 ---
 
-# 📊 Key Business Metrics
+## 📈 Dashboard Views  
 
+- **Finance** → Profitability trends, GM%, cost structure  
+- **Sales** → Channel performance & product insights  
+- **Marketing** → Market share and target tracking  
+- **Supply Chain** → Forecast Accuracy, Absolute & Net Error  
+- **Executive** → High-level KPI performance snapshot  
+
+<img width="671" height="377" alt="image" src="https://github.com/user-attachments/assets/dccf9dbc-a0a7-4d13-8904-de405883d352" />
+
+<img width="673" height="379" alt="image" src="https://github.com/user-attachments/assets/2779e31a-662f-4b46-af37-c6cd77591918" />
+
+---
+
+## 📊 Key KPIs  
+
+### Business Terms:
 - Net Sales  
-- Gross Margin (GM%)  
 - COGS  
+- Gross Margin (GM%)  
 - Net Profit  
 - Forecast Accuracy  
 - Absolute Error  
-- Net Error   
-
-
----
-
-# 📈 Dashboard Views
+- Net Error  
 
 ---
 
-## 💰 Finance View
-
-- Net Sales & Net Profit trends  
-- GM% analysis  
-- Cost structure breakdown  
-- Profitability by customer & market  
-
-📷 **Finance Dashboard Preview**  
-![Finance View](images/finance_view.png)
-
----
-
-## 📊 Sales View
-
-- Channel performance (Retail, Direct, Distributor)  
-- Year-over-Year growth  
-- Top & bottom performing products  
-- Customer performance insights  
-
-📷 **Sales Dashboard Preview**  
-![Sales View](images/sales_view.png)
-
----
-
-## 📢 Marketing View
-
-- Market share analysis  
-- Regional performance  
-- Target vs Actual tracking  
-
-📷 **Marketing Dashboard Preview**  
-![Marketing View](images/marketing_view.png)
-
----
-
-## 🚚 Supply Chain View
-
-- Forecast Accuracy tracking  
-- Absolute & Net Error monitoring  
-- Demand planning insights  
-
-📷 **Supply Chain Dashboard Preview**  
-![Supply Chain View](images/supply_chain_view.png)
-
----
-
-## 👔 Executive View
-
-- High-level KPI overview  
-- Business performance snapshot  
-- Strategic insights  
-
-📷 **Executive Dashboard Preview**  
-![Executive View](images/executive_view.png)
-
----
-
-# ⚙️ Advanced Features Implemented
-
-- Dynamic KPI switching using Field Parameters  
-- Interactive tooltips  
-- Conditional formatting (data bars & KPI icons)  
-- Optimized DAX measures  
-- Performance tuning using DAX Studio  
-- Automated reporting replacing manual Excel work  
-
----
-
-# 🚀 Business Impact
-
-- Shifted from intuition-based decisions to data-driven strategy  
-- Improved visibility into profitability drivers  
+## 🚀 Business Impact  
+- Replaced manual Excel reporting with automated dashboards  
+- Improved visibility into cost and margin drivers  
 - Enhanced forecast monitoring for better planning  
-- Centralized reporting across departments  
-- Reduced manual reporting effort  
+- Enabled faster, data-backed strategic decisions  
+- Centralized reporting across business functions  
 
 ---
 
-# 👥 Stakeholders Benefited
+Live dashboard:[https://app.powerbi.com/groups/me/reports/123bd8bf-2362-4307-85ca-94a4188f401a/dcc5ee8608e750617536?experience=power-bi](https://app.powerbi.com/view?r=eyJrIjoiNTFmOGU2ZTgtODhmMy00Nzg2LWI1MDAtNGFmMDUwZjBhNGMwIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
-- **Finance Teams** → Margin & profitability monitoring  
-- **Sales & Marketing Teams** → Market & product insights  
-- **Supply Chain Teams** → Forecast accuracy improvement  
-- **Executives** → Faster strategic decision-making  
-
----
-
-# 📌 Conclusion
-
-This project demonstrates how structured data modeling, optimized DAX calculations, and business-focused dashboards can transform raw transactional data into actionable strategic insights.
-
-It highlights strong capabilities in:
-- Data modeling  
-- Business understanding  
-- Performance optimization  
-- Insight-driven reporting
-
----
-
-# 📬 Contact the Author
-
-**Biya Rocky**  
-
+## 👤 Contact Me  
+  
 📧 Email: biyarocky@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/biya-rocky-dataanalyst/
-💼 Portfolio: [https://yourportfolio.com  ](https://codebasics.io/portfolio/Biya-Rocky)
+🔗 LinkedIn: https://www.linkedin.com/in/biya-rocky-dataanalyst/  
 
 ---
 
-If you found this project interesting or would like to collaborate, feel free to reach out. I'm open to data analyst opportunities and meaningful discussions around Business Intelligence.
+If you found this project valuable or would like to collaborate, feel free to connect.  
+I’m open to remote and hybrid Data Analyst opportunities.
